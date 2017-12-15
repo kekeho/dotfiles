@@ -1,3 +1,3 @@
-#Setup
+# Setup
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/kekeho/dotfiles/master/setup.sh)"
+bash -c "$(curl -fsSL https://goo.gl/f5ZL9q)"
