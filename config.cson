@@ -1,0 +1,41 @@
+"*":
+  "atom-clock":
+    dateFormat: "M/D H:mm"
+    locale: "ja"
+    showTooltip: true
+  "autocomplete-python":
+    useSnippets: "all"
+  core:
+    automaticallyUpdate: false
+    disabledPackages: [
+      "language-gfm"
+      "github"
+      "open-on-github"
+      "linter-pycodestyle"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-monokai"
+    ]
+  editor:
+    fontFamily: "Source Han Code JP"
+    showIndentGuide: true
+    softWrap: true
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "995b480e-5363-4eec-a3c3-be8adfd583ae"
+  kite:
+    showKiteTourOnStartup: false
+  latex:
+    engine: "platex"
+  "linter-ui-default":
+    panelHeight: 289
+    showPanel: true
+  minimap:
+    displayMinimapOnLeft: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    removeTrailingWhitespace: false
