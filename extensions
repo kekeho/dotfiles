@@ -1,12 +1,9 @@
-DiegoMolina.css-minify
 HookyQR.minify
 Oussma-Hamdaoui.simple-ftp
 abusaidm.html-snippets
-ajshort.latex-preview
 alefragnani.Bookmarks
 anseki.vscode-color
 austin.code-gnu-global
-austin.vscode-twitter
 be5invis.toml
 bibhasdn.django-html
 bobjoy.vscode-browser-plus
@@ -16,6 +13,7 @@ daichang.vsc-view-in-browser
 DavidAnson.vscode-markdownlint
 dbaeumer.jshint
 dbaeumer.vscode-eslint
+DiegoMolina.css-minify
 donjayamanne.githistory
 DotJoshJohnson.xml
 eamodio.gitlens
@@ -25,7 +23,9 @@ eg2.vscode-npm-script
 filipesabella.live-p5
 himanoa.Python-autopep8
 HookyQR.beautify
+James-Yu.latex-workshop
 jock.svg
+Kelvin.vscode-sshfs
 koppt.vscode-view-in-browser
 luf.Anyview
 mitaki28.vscode-clang
@@ -33,9 +33,11 @@ mrmlnc.vscode-apache
 ms-mssql.mssql
 ms-python.python
 ms-vscode.cpptools
+mshr-h.veriloghdl
 msjsdiag.debugger-for-chrome
 mxschmitt.postscript
 olback.es6-css-minify
+p1c2u.docker-compose
 PeterJausovec.vscode-docker
 pizzacat83.codic
 redhat.java
@@ -44,10 +46,10 @@ shd101wyy.markdown-preview-enhanced
 thekalinga.bootstrap4-vscode
 tht13.html-preview-vscode
 Tobiah.language-pde
-tomoki1207.pdf
 torn4dom4n.latex-support
 vsciot-vscode.vscode-arduino
 vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
