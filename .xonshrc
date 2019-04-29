@@ -1,0 +1,12 @@
+$PATH.append('/usr/local/bin')
+
+$VI_MODE = False
+$EDITOR = 'nano'
+$VISUAL = 'code'
+
+# Auto insert ()
+$XONSH_AUTOPAIR = True
+
+$AUTO_CD = True
+$UPDATE_COMPLETIONS_ON_KEYPRESS = True
+
