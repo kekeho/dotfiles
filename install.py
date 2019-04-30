@@ -1,9 +1,17 @@
 # Run with sudo mode
 
 import subprocess
+import shutil
+import os
+import platform
+
+# if Linux, install mackeyX
+if platform.system() == 'Linux':
+    subprocess.run(['git', 'clone', 'https://github.com/kekeho/mackeyX.git'])
+    subprocess.run(['sh', 'mackeyX/set.sh'], shell=True)
 
 # apply xonsh profiles
-subprocess.run(['cp', './.xonshrc', '~/'])
+shutil.copy('.xonshrc', f'{os.environ["HOME"]}/.xonshrc')
 subprocess.run(['/usr/bin/env', 'xonsh', '-c', '~/.xonshrc'])
 
 # Install VSCode extensions

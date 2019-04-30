@@ -1,4 +1,8 @@
-$PATH.append('/usr/local/bin')
+import platform
+
+$PATH.append('/usr/local/bin')  # macOS brew
+if platform.system() == 'Linux':
+    $PATH.append('/home/linuxbrew/.linuxbrew/bin/')  # linux brew
 
 $VI_MODE = False
 $EDITOR = 'nano'
@@ -10,3 +14,17 @@ $XONSH_AUTOPAIR = True
 $AUTO_CD = True
 $UPDATE_COMPLETIONS_ON_KEYPRESS = True
 
+# Xontribs
+xontrib load docker_tabcomplete
+xontrib load thefuck
+# xontrib load powerline
+xontrib load z
+
+# powerline
+$PL_TOOLBAR = 'who>virtualenv>branch>cwd>full_proc'
+$PL_TOOLBAR = '!'  # for no toolbar
+
+# python(linuxbrew)
+if platform.system() == 'Linux':
+    aliases['python3'] = '/home/linuxbrew/.linuxbrew/bin/python3'
+    aliases['pip3'] = '/home/linuxbrew/.linuxbrew/bin/pip3'
