@@ -1,0 +1,31 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "workbench.colorTheme": "Flatland Monokai",
+    "explorer.confirmDelete": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "git.autofetch": true,
+    "breadcrumbs.enabled": true,
+    "browser-preview.chromeExecutable": "/usr/bin/google-chrome",
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.shell.linux": "/home/hiroki/.local/bin/xonsh",
+    "files.associations": {
+        "*.html": "html"
+    },
+    "kite.showWelcomeNotificationOnStartup": false,
+    "launch": {
+        "configurations": [
+            {
+                "name": "Nim Debug",
+                "type": "gdb",
+                "request": "launch",
+                "target": "${fileBasenameNoExtension}",
+                "cwd": "${workspaceRoot}",
+                "valuesFormatting": "parseText"
+            }
+        ],
+        "compounds": []
+    }
+}
