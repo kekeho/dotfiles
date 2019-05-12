@@ -21,8 +21,9 @@
                 "name": "Nim Debug",
                 "type": "gdb",
                 "request": "launch",
+                "arguments": "< ${fileBasenameNoExtension}.input",
                 "target": "${fileBasenameNoExtension}",
-                "cwd": "${workspaceRoot}",
+                "cwd": "${fileDirname}",
                 "valuesFormatting": "parseText"
             }
         ],
