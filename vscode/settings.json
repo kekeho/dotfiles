@@ -27,5 +27,7 @@
             }
         ],
         "compounds": []
-    }
+    },
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.osx": "/usr/local/bin/xonsh"
 }
