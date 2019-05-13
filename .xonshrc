@@ -28,3 +28,6 @@ $PL_TOOLBAR = '!'  # for no toolbar
 if platform.system() == 'Linux':
     aliases['python3'] = '/home/linuxbrew/.linuxbrew/bin/python3'
     aliases['pip3'] = '/home/linuxbrew/.linuxbrew/bin/pip3'
+
+# nimble path
+$PATH.append(os.environ['HOME'] + '/.nimble/bin')
