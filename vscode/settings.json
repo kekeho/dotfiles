@@ -19,12 +19,12 @@
         "configurations": [
             {
                 "name": "Nim Debug",
-                "type": "gdb",
+                "type": "cppdbg",
                 "request": "launch",
-                "arguments": "< ${fileBasenameNoExtension}.input",
-                "target": "${fileBasenameNoExtension}",
+                "program": "${fileDirname}/${fileBasenameNoExtension}",
                 "cwd": "${fileDirname}",
-                "valuesFormatting": "parseText"
+                "MIMode": "lldb",
+                "externalConsole": true
             }
         ],
         "compounds": []
