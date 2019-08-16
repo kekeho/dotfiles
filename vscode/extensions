@@ -1,4 +1,5 @@
 abusaidm.html-snippets
+alanz.vscode-hie-server
 alefragnani.Bookmarks
 anseki.vscode-color
 auchenberg.vscode-browser-preview
@@ -22,11 +23,15 @@ ecmel.vscode-html-css
 eg2.tslint
 eg2.vscode-npm-script
 filipesabella.live-p5
+formulahendry.docker-explorer
+formulahendry.docker-extension-pack
 himanoa.Python-autopep8
+hollowtree.vue-snippets
 HookyQR.beautify
 HookyQR.minify
 James-Yu.latex-workshop
 jock.svg
+justusadam.language-haskell
 Kelvin.vscode-sshfs
 kiteco.kite
 koppt.vscode-view-in-browser
@@ -35,6 +40,7 @@ lextudio.restructuredtext
 luf.Anyview
 mitaki28.vscode-clang
 mrmlnc.vscode-apache
+ms-azuretools.vscode-docker
 ms-mssql.mssql
 ms-python.python
 ms-vscode.cpptools
@@ -44,13 +50,13 @@ mxschmitt.postscript
 olback.es6-css-minify
 Oussma-Hamdaoui.simple-ftp
 p1c2u.docker-compose
-PeterJausovec.vscode-docker
 pizzacat83.codic
 redhat.java
 rust-lang.rust
 s3gf4ult.monokai-vibrant
 shd101wyy.markdown-preview-enhanced
 slevesque.vscode-hexdump
+TabNine.tabnine-vscode
 thanhtrang.theme-flatland-monokai
 thekalinga.bootstrap4-vscode
 tht13.html-preview-vscode
